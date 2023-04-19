@@ -108,7 +108,7 @@ h1{
 h2{
     text-align: center;
     font-family: NewYork;
-    font-size: clamp(2rem,2.8vw,3.5rem);
+    font-size: clamp(4rem,2.8vw,3.5rem);
     max-width: 25vw;
     color:var(--white);
     margin:0 auto;
@@ -833,6 +833,13 @@ form{
 
 /* ######### MEDIA ############ */
 
+@media only screen and (max-width:1100px){
+    h2{
+        font-size: clamp(2rem,2.8vw,3.5rem);
+
+    }
+}
+
 
 @media only screen and (max-width:880px) {
 
@@ -893,6 +900,8 @@ form{
     .contact-content{
         width: 100%;
     }
+
+    
 }
 
 
